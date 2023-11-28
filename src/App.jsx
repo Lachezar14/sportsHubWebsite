@@ -4,9 +4,9 @@ import Main from "./components/Main";
 import Footer from "./components/Footer";
 
 function App() {
+    
   return (
     <main className="bg-teal">
-        <Header />
         <Main />
         <Footer />
     </main>

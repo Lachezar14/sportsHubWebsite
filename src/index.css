@@ -1,3 +1,83 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Custom-1";
+    src: url("../public/fonts/FiraSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Custom-2";
+    src: url("../public/fonts/FiraSans-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Custom-3";
+    src: url("../public/fonts/FiraSans-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Custom-4";
+    src: url("../public/fonts/FiraSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "Custom-5";
+    src: url("../public/fonts/FiraSans-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: "Custom-6";
+    src: url("../public/fonts/FiraSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Custom-7";
+    src: url("../public/fonts/FiraSans-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Custom-8";
+    src: url("../public/fonts/FiraSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Custom-9";
+    src: url("../public/fonts/FiraSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Custom-10";
+    src: url("../public/fonts/FiraSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Custom-11";
+    src: url("../public/fonts/FiraSans-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Custom-12";
+    src: url("../public/fonts/FiraSans-ThinItalic.ttf");
+}
+
+@font-face {
+    font-family: "Custom-13";
+    src: url("../public/fonts/FiraSans-Black.ttf");
+}
+
+@font-face {
+    font-family: "Custom-14";
+    src: url("../public/fonts/FiraSans-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: "Custom-15";
+    src: url("../public/fonts/FiraSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Custom-16";
+    src: url("../public/fonts/FiraSans-BoldItalic.ttf");
+}

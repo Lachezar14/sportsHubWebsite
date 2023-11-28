@@ -1,10 +1,8 @@
 import React from "react";
-import { Link, animateScroll as scroll } from 'react-scroll';
-import {IconArrowNarrowDown} from '@tabler/icons-react'
 
-export default function Header({ scrollToSubscribe }) {
+export default function Header() {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
-    
+
     return (
         <div className="top-0 w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out">
             <div className="flex flex-col ml-24 mr-36 px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
@@ -23,11 +21,7 @@ export default function Header({ scrollToSubscribe }) {
                         className="text-white cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none "
                         type="button"
                         aria-label="button"
-                        onClick={(e) => {
-                            e.preventDefault(); // Prevent default form submission
-                            setNavbarOpen(!navbarOpen);
-                            scrollToSubscribe(); // Invoke the callback to scroll to the subscribe section
-                        }}
+                        onClick={() => setNavbarOpen(!navbarOpen)}
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +54,16 @@ export default function Header({ scrollToSubscribe }) {
                                 href="/"
                             >
                                 <span className="justify-center">Sign Up</span>
-                                <IconArrowNarrowDown width="20" height="20" strokeWidth={2} color="white"/>
+                                <svg
+                                    className="w-3 h-3 fill-current text-gray-400 flex ml-2 -mr-1"
+                                    viewBox="0 0 12 12"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
+                                        fillRule="nonzero"
+                                    />
+                                </svg>
                             </a>
                         </ul>
                     </nav>
